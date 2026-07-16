@@ -1,7 +1,7 @@
 title: UnsaidPages
 description: "Stories that were felt, not just written."
-baseurl: "/UnsaidPages"
-url: "https://gamercr4cked.github.io"
+baseurl: ""
+url: "https://unsaidpages.zippedhost.dpdns.org"
 markdown: kramdown
 kramdown:
   input: GFM
