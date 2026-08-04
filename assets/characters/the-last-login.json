@@ -1,7 +1,7 @@
 {
   "Unknown": {
     "initials": "U",
-    "role": "Main Character",
+    "role": "Main Character / Narrator",
     "color": "#6db3f2",
     "lightColor": "#3a7fcc",
     "align": "right",
@@ -46,5 +46,29 @@
       { "label": "Personality", "value": "Friendly, curious, catalyst" }
     ],
     "bio": "Wo user jo ticket ban ke aayi aur dosti ke beech ka pehla crack ban gayi."
+  },
+  "Zynx": {
+    "initials": "Z",
+    "role": "The Alter Ego",
+    "color": "#9333ea",
+    "lightColor": "#6b21a8",
+    "align": "left",
+    "details": [
+      { "label": "Role", "value": "Moonlit Admin / Ex-KingOP" },
+      { "label": "Personality", "value": "Cold, distant, changed" }
+    ],
+    "bio": "KingOP ka suspend hone ke baad ka roop. Zoe ki duniya mein kho gaya, purane dosto ko bhula diya."
+  },
+  "Zoe": {
+    "initials": "Zo",
+    "role": "Moonlit Owner",
+    "color": "#ec4899",
+    "lightColor": "#be185d",
+    "align": "right",
+    "details": [
+      { "label": "Role", "value": "Server Owner / Influence" },
+      { "label": "Personality", "value": "Possessive, dominant, cold" }
+    ],
+    "bio": "Moonlit server ki malik. Usne KingOP ko apni duniya mein band kar liya aur baaki dosto se door kar diya."
   }
 }
