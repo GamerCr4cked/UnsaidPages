@@ -1,0 +1,50 @@
+{
+  "Unknown": {
+    "initials": "U",
+    "role": "Main Character",
+    "color": "#6db3f2",
+    "lightColor": "#3a7fcc",
+    "align": "right",
+    "details": [
+      { "label": "Role", "value": "Founder / Owner" },
+      { "label": "Personality", "value": "Loyal, introspective, sensitive" }
+    ],
+    "bio": "Dosti pe jaan dene wala. Alone Hosting ka backbone, par jab dosti mein darar aayi, toh wo akelepan se ladne laga."
+  },
+  "KingOP": {
+    "initials": "K",
+    "role": "Founder / Tech Lead",
+    "color": "#48c78e",
+    "lightColor": "#2e8b63",
+    "align": "left",
+    "details": [
+      { "label": "Role", "value": "Founder / Tech Lead" },
+      { "label": "Personality", "value": "Visionary, steady, eventually detached" }
+    ],
+    "bio": "Hosting ka mastermind. Wo pillar jo sab kuch sambhalta tha, par ek suspension ne use Zynx mein badal diya."
+  },
+  "Alone": {
+    "initials": "A",
+    "role": "Co-Founder / Roaster",
+    "color": "#f4a0b5",
+    "lightColor": "#c4728a",
+    "align": "left",
+    "details": [
+      { "label": "Role", "value": "Co-Founder" },
+      { "label": "Personality", "value": "Chaotic, funny, fiercely loyal" }
+    ],
+    "bio": "Server ka roaster. Chaos ka raja, par jab dosti tooti toh wo Unknown ke saath milke KingOP ko wapas lane ki koshish kar raha hai."
+  },
+  "Bunny": {
+    "initials": "B",
+    "role": "Staff Member",
+    "color": "#fbbf24",
+    "lightColor": "#b08a10",
+    "align": "right",
+    "details": [
+      { "label": "Role", "value": "Staff" },
+      { "label": "Personality", "value": "Friendly, curious, catalyst" }
+    ],
+    "bio": "Wo user jo ticket ban ke aayi aur dosti ke beech ka pehla crack ban gayi."
+  }
+}
