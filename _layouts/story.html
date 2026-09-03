@@ -38,6 +38,9 @@
         <button class="font-btn" id="fontMinus" title="Decrease font size">A-</button>
         <button class="font-btn" id="fontPlus" title="Increase font size">A+</button>
       </div>
+      {% if page.alt_lang_url %}
+      <a href="{{ page.alt_lang_url | relative_url }}" class="translate-btn" title="Switch language">{{ page.alt_lang_label }}</a>
+      {% endif %}
       {% if page.translations %}
       <button class="translate-btn" id="translateBtn" title="Translate">🌐 Translate</button>
       {% endif %}

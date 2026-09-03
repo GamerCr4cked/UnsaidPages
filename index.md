@@ -14,7 +14,7 @@ title: UnsaidPages
     <span class="cat-icon">📖</span>
     <h2>Stories</h2>
     <p class="cat-desc">Real feelings, fictional people. Hinglish stories that hit where it hurts.</p>
-    <span class="cat-count">{{ site.pages | where: "layout", "story" | size }} Stories</span>
+    <span class="cat-count">{{ site.pages | where: "layout", "story" | where_exp: "item", "item.translation != true" | size }} Stories</span>
   </a>
 
   <div class="category-card coming-soon-card">

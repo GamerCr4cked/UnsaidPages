@@ -4,7 +4,7 @@ title: Stories — UnsaidPages
 ---
 
 <div class="home-header">
-  <h1>Stories <span class="story-count">{{ site.pages | where: "layout", "story" | size }}</span></h1>
+  <h1>Stories <span class="story-count">{{ site.pages | where: "layout", "story" | where_exp: "item", "item.translation != true" | size }}</span></h1>
   <p>Stories that were felt, not just written.</p>
 </div>
 
@@ -49,6 +49,21 @@ title: Stories — UnsaidPages
 </div>
 
 <div class="stories-grid" id="storiesGrid">
+
+  <a href="{{ '/stories/x-prismat' | relative_url }}" class="story-card" data-tags="action fantasy thriller mystery" data-langs="en">
+    <div class="card-genre">
+      <span class="tag" style="background: rgba(109, 179, 242, 0.12); color: #6db3f2; border-color: rgba(109, 179, 242, 0.15);">Action</span>
+      <span class="tag" style="background: rgba(201, 160, 220, 0.1); color: #c9a0dc; border-color: rgba(201, 160, 220, 0.15);">Fantasy</span>
+      <span class="tag mood">Thriller</span>
+    </div>
+    <h3><span class="mood-emoji">⚡</span> X-Prismat: The Fragmented Sky</h3>
+    <p class="card-desc">A meteor from millions of years ago. Seven fragments. Seven souls chosen by fate. 16 chapters. Sci-Fi action and supernatural journey.</p>
+    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
+    <div class="card-footer">
+      <span class="card-lang"></span>
+      <span class="read-link">Read Story →</span>
+    </div>
+  </a>
 
   <a href="{{ '/stories/notun-pakhi' | relative_url }}" class="story-card" data-tags="school-life emotional romance" data-langs="hi-Latn" data-trans="bn">
     <div class="card-genre">

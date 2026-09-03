@@ -1,0 +1,93 @@
+{
+  "Arthur": {
+    "initials": "A",
+    "role": "Team Leader / Tech Operator",
+    "color": "#6db3f2",
+    "lightColor": "#3a7fcc",
+    "align": "right",
+    "details": [
+      { "label": "Age", "value": "17" },
+      { "label": "Location", "value": "California" },
+      { "label": "Magic Name", "value": "Technos" }
+    ],
+    "bio": "Extremely intelligent and analytical. Combines magic with advanced technology, cybernetics, and global quantum networks. Damien's blood brother."
+  },
+  "Damien": {
+    "initials": "D",
+    "role": "Voidform Wielder",
+    "color": "#c9a0dc",
+    "lightColor": "#8b5fb0",
+    "align": "left",
+    "details": [
+      { "label": "Age", "value": "19" },
+      { "label": "Location", "value": "Alaska" },
+      { "label": "Magic Name", "value": "Voidform" }
+    ],
+    "bio": "Arthur's blood brother. Discovered the dark crystal in an Alaskan mine, initially manipulated by Grax before breaking free and joining X-Prismat."
+  },
+  "Maya": {
+    "initials": "M",
+    "role": "Earth Wielder",
+    "color": "#e8b059",
+    "lightColor": "#c4922e",
+    "align": "left",
+    "details": [
+      { "label": "Age", "value": "17" },
+      { "label": "Location", "value": "Washington" },
+      { "label": "Magic Name", "value": "Tectonix" }
+    ],
+    "bio": "Adventurous and independent explorer. Controls terrestrial elements, earth, and seismic forces with raw power. Dating Silas."
+  },
+  "Silas": {
+    "initials": "S",
+    "role": "Air Wielder",
+    "color": "#48c78e",
+    "lightColor": "#2e8b63",
+    "align": "right",
+    "details": [
+      { "label": "Age", "value": "18" },
+      { "label": "Location", "value": "Washington" },
+      { "label": "Magic Name", "value": "Zephyr" }
+    ],
+    "bio": "Laid-back, observant, and swift. Harnesses atmospheric pressures, wind currents, and high-altitude flight. Dating Maya."
+  },
+  "Leo": {
+    "initials": "L",
+    "role": "Fire Wielder",
+    "color": "#f0c478",
+    "lightColor": "#a87a1f",
+    "align": "right",
+    "details": [
+      { "label": "Age", "value": "17" },
+      { "label": "Location", "value": "California" },
+      { "label": "Magic Name", "value": "Ignis" }
+    ],
+    "bio": "Arthur's loyal best friend. Wields intense heat, thermal energy, and solar plasma. Chloe's boyfriend."
+  },
+  "Chloe": {
+    "initials": "C",
+    "role": "Water Wielder",
+    "color": "#3a7fcc",
+    "lightColor": "#1d4ed8",
+    "align": "left",
+    "details": [
+      { "label": "Age", "value": "17" },
+      { "label": "Location", "value": "California" },
+      { "label": "Magic Name", "value": "Torrentis" }
+    ],
+    "bio": "Smart, sharp-witted, and precise. Commands water, liquids, and fluid currents. Leo's girlfriend."
+  },
+  "Elena": {
+    "initials": "E",
+    "role": "Light Wielder",
+    "color": "#ffffff",
+    "lightColor": "#e5e7eb",
+    "align": "right",
+    "details": [
+      { "label": "Age", "value": "17" },
+      { "label": "Location", "value": "New York" },
+      { "label": "Magic Name", "value": "Lumina" }
+    ],
+    "bio": "Manipulates photons, radiance, and purifying energy. The seventh wielder whose light saved the team. Arthur's girlfriend."
+  }
+}
